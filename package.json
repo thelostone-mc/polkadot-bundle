@@ -1,0 +1,17 @@
+{
+  "name": "polkadot-bundle",
+  "version": "1.0.0",
+  "description": "polkadot-js bundle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^1.29.1",
+    "@polkadot/keyring": "^3.2.1",
+    "@polkadot/util": "^3.2.1",
+    "@polkadot/util-crypto": "^3.2.1"
+  }
+}
