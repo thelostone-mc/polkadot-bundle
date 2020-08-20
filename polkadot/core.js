@@ -29858,10 +29858,10 @@ let util = require("@polkadot/util");
 let util_crypto = require("@polkadot/util-crypto");
 let keyring = require("@polkadot/keyring");
 
-window.api = api;
-window.util = util;
-window.util_crypto = util_crypto;
-window.keyring = keyring;
+window.polkadot_api = api;
+window.polkadot_util = util;
+window.polkadot_util_crypto = util_crypto;
+window.polkadot_keyring = keyring;
 },{"@polkadot/api":304,"@polkadot/keyring":323,"@polkadot/util":693,"@polkadot/util-crypto":582}],198:[function(require,module,exports){
 function _classPrivateFieldBase(receiver, privateKey) {
   if (!Object.prototype.hasOwnProperty.call(receiver, privateKey)) {

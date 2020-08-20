@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Aditya Anand Michael Chelliah",
   "license": "ISC",
   "dependencies": {
     "@polkadot/api": "^1.29.1",
+    "@polkadot/extension": "^0.22.1",
+    "@polkadot/extension-base": "^0.32.1",
+    "@polkadot/extension-dapp": "^0.32.1",
+    "@polkadot/extension-inject": "^0.32.1",
+    "@polkadot/extension-ui": "^0.22.1",
     "@polkadot/keyring": "^3.2.1",
     "@polkadot/util": "^3.2.1",
     "@polkadot/util-crypto": "^3.2.1"
