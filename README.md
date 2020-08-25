@@ -28,8 +28,19 @@ To sign a transaction using the plugin
 ```javascript
 
   const to_address = 'GZoo68t6icqNENrd7CTC9RCwVLszGuubKo5oGp7WSFxRnv2';
-  polkadot_utils.connect(KUSAMA_ENDPOINT);       // connect to wss endpoint
-  polkadot_extension_dapp.web3Enable('gitcoin'); // enable web3 via dapp
-  polkadot_extension_dapp(200, to_address);        // sign transaction
+  const from_address = 'DDtfcfZG1sErysWu9UET431G8xkdA1qRQ76fst9ZGX11e8E';
+  const amount = 10000000000000; // 10 KSM
+
+  // connect to wss endpoint
+  polkadot_utils.connect(KUSAMA_ENDPOINT);       
+
+  // enable web3 via dapp
+  polkadot_extension_dapp.web3Enable('gitcoin');
+
+  // sign transaction using first address present in browser extension
+  polkadot_extension_dapp(amount, to_address);      
+
+  // sign transaction by passing from_address in public format -> this will be converted to substrate format
+  polkadot_extension_dapp(amount, to_address, from_address);      
 
 ```

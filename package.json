@@ -17,6 +17,7 @@
     "@polkadot/extension-ui": "^0.22.1",
     "@polkadot/keyring": "^3.2.1",
     "@polkadot/util": "^3.2.1",
-    "@polkadot/util-crypto": "^3.2.1"
+    "@polkadot/util-crypto": "^3.2.1",
+    "@substrate/txwrapper": "^3.7.0"
   }
 }
