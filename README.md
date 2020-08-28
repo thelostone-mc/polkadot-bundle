@@ -8,9 +8,12 @@ It consists of the core, extension and util libraries which can be used to
 - Sign transactions via extension
 
 ```html
-  <script src="polkadot/core.js"></script>      <!-- Polkadot core bundle -->
-  <script src="polkadot/extension.js"></script> <!-- Polkadot extension bundle -->
-  <script src="polkadot/utils.js"></script>     <!-- helper function which uses above bundle -->
+  <script src="polkadot/core.min.js"></script>      <!-- Polkadot core bundle -->
+  <script src="polkadot/extension.min.js"></script> <!-- Polkadot extension bundle -->
+  <script src="polkadot/utils.min.js"></script>     <!-- helper function which uses above bundle -->
+
+  <!-- OR -->
+  <script src="polkadot/all.min.js"></script>       <!-- Bundles all the libraries into one bundle -->
 ```
 
 ##### Utils

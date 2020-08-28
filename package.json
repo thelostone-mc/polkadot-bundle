@@ -19,5 +19,9 @@
     "@polkadot/util": "^3.2.1",
     "@polkadot/util-crypto": "^3.2.1",
     "@substrate/txwrapper": "^3.7.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
