@@ -47,3 +47,11 @@ To sign a transaction using the plugin
   polkadot_extension_dapp(amount, to_address, from_address);      
 
 ```
+
+##### Generation Steps
+
+```
+browserify dependencies.js > src/core.js
+browserify extension-dependencies.js > src/extension.js
+npx webpack --config webpack.config.js
+```
