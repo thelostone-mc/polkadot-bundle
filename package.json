@@ -9,16 +9,16 @@
   "author": "Aditya Anand Michael Chelliah",
   "license": "ISC",
   "dependencies": {
-    "@polkadot/api": "^2.4.1",
-    "@polkadot/extension": "^0.22.1",
-    "@polkadot/extension-base": "^0.34.1",
-    "@polkadot/extension-dapp": "^0.34.1",
-    "@polkadot/extension-inject": "^0.34.1",
-    "@polkadot/extension-ui": "^0.22.1",
-    "@polkadot/keyring": "^3.6.1",
-    "@polkadot/util": "^3.6.1",
-    "@polkadot/util-crypto": "^3.6.1",
-    "@substrate/txwrapper": "^3.10.1"
+    "@polkadot/api": "3.7.3",
+    "@polkadot/extension": "0.22.1",
+    "@polkadot/extension-base": "0.36.1",
+    "@polkadot/extension-dapp": "0.36.1",
+    "@polkadot/extension-inject": "0.36.1",
+    "@polkadot/extension-ui": "0.22.1",
+    "@polkadot/keyring": "5.5.2",
+    "@polkadot/util": "5.5.2",
+    "@polkadot/util-crypto": "5.5.2",
+    "@substrate/txwrapper": "3.10.4"
   },
   "devDependencies": {
     "webpack": "^4.44.1",
