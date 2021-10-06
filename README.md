@@ -51,7 +51,7 @@ To sign a transaction using the plugin
 ##### Generation Steps
 
 ```
-browserify dependencies.js > src/core.js
-browserify extension-dependencies.js > src/extension.js
+browserify dependencies.js -p esmify > src/core.js
+browserify extension-dependencies.js -p esmify > src/extension.js
 npx webpack --config webpack.config.js
 ```
